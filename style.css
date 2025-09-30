@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container{
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 10px;
+}
 
 .item{
     height: 100%;
@@ -20,5 +22,3 @@
     color: white;
     font-size: 40px;
 }
-
-
